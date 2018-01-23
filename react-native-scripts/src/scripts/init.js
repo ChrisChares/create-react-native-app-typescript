@@ -10,22 +10,22 @@ import install from '../util/install';
 
 // UPDATE DEPENDENCY VERSIONS HERE
 const DEFAULT_DEPENDENCIES = {
-  expo: '^22.0.2',
-  react: '16.0.0-beta.5',
-  'react-native': '^0.49.5',
+  expo: '^25.0.0',
+  react: '16.2.0',
+  'react-native': 'https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz',
 };
 
 // TODO figure out how this interacts with ejection
 const DEFAULT_DEV_DEPENDENCIES = {
   '@types/jest': '^21.0.0',
-  '@types/react': '^16.0.5',
-  '@types/react-native': '^0.49.0',
+  '@types/react': '^16.2.0',
+  '@types/react-native': '^0.52.0',
   '@types/react-test-renderer': '^16.0.0',
   'jest-expo-ts': '^22.0.0',
-  'react-native-typescript-transformer': '^1.1.4',
-  'react-test-renderer': '16.0.0-beta.5',
-  'tslib': '^1.7.1',
-  'typescript': '^2.5.2',
+  'react-native-typescript-transformer': '^1.2.3',
+  'react-test-renderer': '16.2.0',
+  'tslib': '^1.9.0',
+  'typescript': '^2.6.2',
 };
 
 module.exports = async (appPath: string, appName: string, verbose: boolean, cwd: string = '') => {
